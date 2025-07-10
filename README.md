@@ -1,18 +1,9 @@
-# 🎓 Student Management System
+# 🧮 Result Management System (Python + Tkinter)
 
-A desktop-based Student Management System built using **Python** and **Tkinter** that allows users to manage student records efficiently. This project demonstrates the use of GUI development in Python along with basic file/data handling operations.
-
----
-
-## 💡 Why I Built This
-
-This project was created to **explore GUI development with Tkinter** and to apply Python in a real-world use case — managing student records. It helped me strengthen my understanding of:
-- GUI widgets and layout management
-- Event handling
-- Data input/output
-- Form design and validation
+A desktop application built using **Python and Tkinter** to manage student results. This GUI-based system allows users to input student marks, calculate totals, percentages, grades, and display all results in a structured format.
 
 ---
+
 
 ## 🖼️ Screenshot
 
@@ -24,28 +15,40 @@ Here’s a quick look at the GUI interface of the application:
 
 > 📝 Make sure `screenshot.png` is in the same directory as your `README.md` file.
 
+## 🎯 Key Features
+
+- Add student details (name, roll number)
+- Input marks for multiple subjects
+- Automatically calculate:
+  - Total marks
+  - Percentage
+  - Grade (A, B, C, F, etc.)
+- Display result in formatted view
+- Simple and user-friendly interface using Tkinter
+- (Optional) Export results to a `.txt` or `.csv` file
+
 ---
 
-## 📌 Features
+## 💡 Why I Built This
 
-- Add new student records
-- Update existing records
-- Delete student records
-- View all student data
-- Simple and clean Tkinter GUI
-- (Optional) Search student by name or ID
+After completing my Student Management System project, I wanted to explore how to apply Python and Tkinter for data-based decision-making. This project allowed me to practice:
+
+- GUI development with Tkinter
+- Conditional logic (grading system)
+- Form validation
+- String formatting and user interaction
 
 ---
 
 ## 🧠 Concepts Used
 
-- **Tkinter** – for building the graphical user interface
-- **Functions and Events** – for button clicks and user input handling
-- **List/Data Storage** – to manage student data in memory (or file)
-- **Labels, Entries, Buttons, Frames** – Tkinter widgets
-- **Grid/Pack Layouts** – for placing elements on the screen
+- **Tkinter** – for GUI interface
+- **Functions** – to handle form logic
+- **Entry widgets** – to collect user input
+- **Labels/Frames/Buttons** – for interface layout
+- **String formatting** – to display results
+- (Optional) **File I/O** – to save/export data
 
----
 
 ---
 
